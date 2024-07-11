@@ -10,7 +10,7 @@ public class ExitCodeGenratorAppliaction {
 	public static void main(String[] args) {
 		
 		ApplicationContext applicationContext=SpringApplication.run(ExitCodeGenratorAppliaction.class, args);
-		
+		System.out.println("This line added in github editor");
 		int exitCode=SpringApplication.exit(applicationContext);
 		System.exit(exitCode);
 	}
